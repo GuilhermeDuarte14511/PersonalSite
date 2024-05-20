@@ -109,7 +109,8 @@ nav .menu a:hover {
 }
 
 .project-img {
-    width: 100%;
+    width: 80%; /* Ajuste a largura da imagem para 80% */
+    max-width: 400px; /* Limite a largura máxima da imagem para 300px */
     border-radius: 10px;
     transition: transform 0.3s;
 }
@@ -139,7 +140,7 @@ footer p {
     transition: color 0.3s;
 }
 
-.contact-icons a:hover {
+contact-icons a:hover {
     color: #fff;
 }
 
